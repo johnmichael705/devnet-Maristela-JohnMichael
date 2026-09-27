@@ -1,45 +1,52 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: [Maristela, John Michael P.]
+Date: [September 27, 2026]
 
 ============================================
-WHAT IS THIS TOPIC? (explain it like you're
-teaching a friend who's never coded before)
+WHAT IS THIS TOPIC?
 ============================================
-[write your own explanation here]
+Control flow lets a program make choices.
+It checks a condition and decides what to do.
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
-(add more as needed)
+- condition: something the program checks
+- if / elif / else: used to make choices
+- comparison operator: symbols used to compare values
+- boolean expression: gives True or False
 
 
 ============================================
 MY OWN EXAMPLE(S)
 ============================================
-Write at least one working example below that you
-came up with yourself — not copied from class.
 """
 
 # --- your code example goes here ---
+
+score = 85
+
+if score >= 90:
+    print("Excellent!")
+elif score >= 75:
+    print("Passed!")
+else:
+    print("Failed!")
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+I need to remember the colon (:) and proper spaces
+when using if, elif, and else.
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+It can be used in games, grades, and other programs
+that need to make choices.
 """

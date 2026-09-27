@@ -1,47 +1,55 @@
 """
 Module 2 — Lesson 1: Variables & Data Types
-Student: [your name]
-Date: [date]
+Student: [Maristela, John Michael P.]
+Date: [September 26, 2026]
 
 ============================================
-WHAT IS THIS TOPIC? (explain it like you're
-teaching a friend who's never coded before)
+WHAT IS THIS TOPIC?
 ============================================
-[write your own explanation here]
+Variables store data in a program.
+Data types tell us what kind of data it is.
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- variable:
-- data type:
-- int:
-- float:
-- string:
-- boolean:
-(add more as needed)
+- variable: a name that stores data
+- data type: tells what kind of data it is
+- int: whole number
+- float: number with a decimal
+- string: text
+- boolean: True or False
 
 
 ============================================
 MY OWN EXAMPLE(S)
 ============================================
-Write at least one working example below that you
-came up with yourself — not copied from class.
 """
 
 # --- your code example goes here ---
+
+name = "John"
+age = 18
+height = 5.7
+is_student = True
+
+print(name)
+print(age)
+print(height)
+print(is_student)
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+I need to use the correct data type for each value.
+I also need to use quotes when storing text.
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+Variables can store information used in games,
+calculators, and other programs.
 """

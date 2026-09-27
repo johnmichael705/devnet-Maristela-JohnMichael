@@ -1,46 +1,49 @@
 """
 Module 2 — Lesson 3: Loops & Lists
-Student: [your name]
-Date: [date]
+Student: [Maristela, John Michael P.]
+Date: [September 27, 2026]
 
 ============================================
-WHAT IS THIS TOPIC? (explain it like you're
-teaching a friend who's never coded before)
+WHAT IS THIS TOPIC?
 ============================================
-[write your own explanation here]
+Lists store many values in one place.
+Loops repeat code until the task is done.
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
-- for loop:
-- while loop:
-- index:
-- iteration:
-(add more as needed)
+- list: a group of values
+- for loop: repeats code for each item
+- while loop: repeats code while a condition is true
+- index: the position of an item in a list
+- iteration: one repeat of a loop
 
 
 ============================================
 MY OWN EXAMPLE(S)
 ============================================
-Write at least one working example below that you
-came up with yourself — not copied from class.
 """
 
 # --- your code example goes here ---
+
+fruits = ["Apple", "Mango", "Banana"]
+
+for fruit in fruits:
+    print(fruit)
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+I need to remember that list indexes start at 0.
+I also need to use proper indentation in loops.
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+Loops and lists can be used to store and show
+many items without writing the same code again.
 """
